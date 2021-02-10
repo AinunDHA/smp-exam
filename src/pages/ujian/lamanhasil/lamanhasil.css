@@ -1,0 +1,265 @@
+.judul{
+    padding: 0pt;
+}
+.judul2{
+    padding: 0pt;
+    font-size: 14pt;
+    font-style: italic;
+}
+.laman_sementara{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  text-shadow: 1px 1px 0px #fff;
+  background: #eaebec;
+  border: #ccc 1px solid;
+}
+
+.float th {
+  padding: 15px 35px;
+  border-left:1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  background: #ededed;
+}
+
+.float tr {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.float td {
+  padding: 15px 35px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+
+.float tr:last-child td {
+  border-bottom: 0;
+}
+.float tr:hover td {
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+
+
+@media screen and (min-width: 768px){
+    /* body{
+        width: 100%;
+    } */
+    body{
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+
+    .container-halaman2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: baseline;
+    }
+    .header-halaman2{
+        width: 100%;
+    }
+    .tabel-halaman2{
+        width: 100%;
+        text-align-last: center;
+        display: grid;
+    }
+    table{
+        width: 100%;
+        align-items: center;
+        align-content: center;
+    }
+    .tabel-hasil{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+
+    }
+
+    .float, tr{
+        width: 10%;
+    }
+    .float td{
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .float {
+
+        float: left;
+        width: 70px;
+        height: 300px;
+    }
+    .atas{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 767px){
+        body{
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+
+    .container-halaman2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: baseline;
+    }
+    .header-halaman2{
+        width: 100%;
+    }
+    .tabel-halaman2{
+        width: 100%;
+        text-align-last: center;
+        display: grid;
+    }
+    table{
+        width: 100%;
+        align-items: center;
+        align-content: center;
+    }
+    .tabel-hasil{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+        padding-left: 120px;
+
+    }
+
+    .float, tr{
+        width: 10%;
+    }
+    .float td{
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .float {
+
+        float: left;
+        width: 70px;
+        height: 300px;
+    }
+    .atas{
+        width: 100%;
+    }
+}
+
+
+body{
+    font-family: sans-serif;
+    margin: 0 auto;
+    align-content: center;
+   background: #94d6d8;
+   /* background: linear-gradient(to top, white, rgb(160, 215, 252)) no-repeat scroll; */
+    background-size: 100% 100%;
+    min-height: 680px;
+}
+
+.header-halaman2{
+    text-align: center;
+
+    
+}
+.container-halaman2{
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+}
+.d-flex{
+    display: flex;
+}
+.fontPutih{
+    color: white;
+}
+
+.tombol{
+    justify-content: center;
+}
+
+.buttonDesign{
+    width: 5rem;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-inline-end-width: 0px;
+}
+
+#kembali{
+    background-color: #5b98c1;
+    text-decoration: none;
+    color: white;
+    width: 9rem;
+    height: 4rem;
+    
+}
+
+#kembali:hover{
+    color: gold;
+}
+#selesai{
+    background-color: #237f23;
+    text-decoration: none;
+    color: white;
+    width: 9rem;
+    height: 4rem;
+}
+
+#selesai:hover{
+    color: gold;
+}
+.tabel-halaman2{
+    align-self: center;
+    text-align-last: center;
+    box-shadow: none;
+    font-size: 16pt;
+    
+}
+/* Untuk mengatur lebar tiap tabel */
+.float{
+    float: left;
+    width: 70px;
+    height: 300px;
+}
+.float, td{
+ width: 30px;
+}
+.flexColumn{
+    flex-direction: column;
+}
+.jawaban{
+   
+    background-color: rgb(78, 221, 240);
+    color: black;
+    border-collapse: collapse;
+}
+
+.soal{
+    /* width: 15px; */
+    background-color: rgb(205, 241, 241);
+    border-collapse: collapse;
+}
+
+.atas{
+    background-color: #4682b4;
+    color: white;
+    border-collapse: collapse;
+}

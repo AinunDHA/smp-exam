@@ -1,0 +1,91 @@
+//Backup BUTTONUjian
+
+@media all and (min-width: 922px){
+    .grid-button{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+    }
+    .button1-styles{
+        margin-right: 1rem;
+        margin-left: 4rem;
+    }
+    .button2-styles{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .button3-styles{
+        margin-left: 1rem;
+    }
+    .button-selesai{
+        margin-left: 1rem;
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 767px){
+.grid-button{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    align-content: center;
+    text-align-last: center;
+    /* padding: 3rem 0; */
+    /* font-family: Lato, serif; */
+}
+}
+
+.button1-styles{
+    width: 300px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: #20bee6;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    /* margin-right: 1rem;
+    margin-left: 4rem; */
+    cursor: pointer;
+}
+
+.button2-styles{
+    width: 300px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: #90addb;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    /* margin-left: 0rem;
+    margin-right: 0rem; */
+    cursor: pointer;
+}
+
+.button3-styles{
+    width: 300px;
+    margin: 20px;
+    font-size: 20px;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #2073f7;
+    /* margin-left: 1rem; */
+    cursor: pointer;
+}
+.button-selesai {
+    width: 300px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 11px;
+    /* margin-left: 1rem; */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #339e33;
+    cursor: pointer;
+}

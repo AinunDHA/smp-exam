@@ -1,0 +1,28 @@
+.nomor-soal{
+    position: relative;
+}
+
+.bulat{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    position: absolute;
+    top: -0.8rem;
+    left: 1.8rem;
+    background-color: white;
+}
+
+.kotak{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.kotak p{
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    line-height: 0rem;
+}

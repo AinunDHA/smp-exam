@@ -1,0 +1,122 @@
+
+@media screen and (min-width: 1048px){
+  body{
+    width: 100%;
+  }
+  .App{
+    width: 100%;
+    text-align: right;
+  }
+  .soalll{
+    width: 68%;
+  }
+  .App-header{
+    max-width: 100%;
+  }
+  .daftar-soal-app{
+    width: 30%;
+  }
+  .tombol-halaman1{
+    max-width: 100%;
+    margin-top: 32rem;
+    grid-template-columns: auto auto auto auto;
+    margin-left: -100px;
+  }
+}
+/*Untuk tampilan landscpae Ipad dan portrait IpadPro*/
+@media screen and (width: 1024px){
+  body{
+    width: 100%;
+  }
+  .App{
+    width: 100%;
+    text-align: right;
+  }
+  .soalll{
+    width: 68%;
+  }
+  .App-header{
+    max-width: 100%;
+  }
+  .navigation{
+    width: 100%;
+  }
+  .daftar-soal-app{
+    width: 30%;
+    margin: 0pt;
+  }
+  .tombol-halaman1{
+    max-width: 100%;
+    margin-top: 32rem;
+    grid-template-columns: auto auto auto auto;
+    margin-left: -10px;
+  }
+}
+
+/* Tampilan mobile untuk smartphone dan iphone*/
+@media screen and (min-width: 0px) and (max-width: 848px){
+  body{
+    width: fit-content;
+  }
+  .App{
+    width: 100%;
+
+  }
+  .text{
+    display: grid;
+  }
+  .App-header{
+    max-width: auto;
+  }
+  .soalll{
+    width: 100%;
+    display: flex;
+  }
+  .Soal-app{
+    width: 100%;
+    margin: 16pt;
+    background-color: #d8dadb;
+  }
+  .daftar-soal-app{
+    display: none;
+
+  }
+  .tombol-halaman1{
+    width: 100%;
+    align-content: center;
+    text-align-last: center;
+    
+  }
+
+}
+
+
+.wrapper{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #94d6d8;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

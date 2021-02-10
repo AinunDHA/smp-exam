@@ -1,0 +1,137 @@
+
+
+@media all and (min-width: 0px) and (max-width:767px){
+  .Soal-app{
+    height: 40rem;
+    background-color: #c3cad6;
+    /* padding-top: 18px;
+    padding-left: 20px; */
+    text-align: left;
+    margin: 1rem;
+    width: 100%;
+    padding: 20px;
+  }
+  .soal-halaman{
+    display: flex;
+    width: 100%;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    /* margin-left: -40px;
+    padding: 4px; */
+
+  }
+}
+@media all and (min-width: 922px){
+  .Soal-app {
+    height: 40rem;
+    background-color: #c3cad6;
+    padding-top: 18px;
+    padding-left: 20px;
+    text-align: left;
+    margin: 3rem;
+    width: 88%;
+  }
+}
+
+
+.soal-halaman{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border: 2px solid #333;
+    float: left;
+    overflow-y: scroll;
+    position: relative;
+}
+
+
+ .Question {
+   height: 200px;
+   overflow-y: scroll;
+   padding-bottom: 32px;
+   margin-bottom: 40px;
+
+ }
+
+  .HalamanSoal h2{
+      font-size: 25px;
+  }
+  .HalamanSoal div{
+      color: black;
+      font-size: 23px;
+      font-variant: normal;
+      font-family: Arial, Helvetica;
+  }
+  .Choice {
+    color: black;
+    margin-left: 20px;
+    font-size: 23px;
+  }
+  .buttonkotak{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 8px;
+    background-color: #c3cad6;
+  }
+  .bulatan{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid deepskyblue;
+        position: relative;
+        top: -0.8rem;
+        left: 1.8rem;
+        background-color: white;
+        cursor: pointer;
+  }
+  .pilihan{
+    width: 300px;
+    margin-left: -93px;
+    font-size: 16px;
+    position: absolute;
+  }
+
+  .radio{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  .radio + .radio{
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  input[type="radio"]{
+    opacity: 0;
+
+  }
+  .radio span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border:3px solid deepskyblue;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 7px;
+  }
+  .radio span::after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: deepskyblue;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+  }
+  .radio input[type="radio"]:checked ~ span::after{
+    transform: translate(-50%, -50%) scale(1);
+  }
