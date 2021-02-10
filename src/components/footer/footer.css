@@ -1,0 +1,44 @@
+footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100%;
+  background: #3dbca4;
+}
+
+.footer__list-links,
+.footer__list-social {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer__list-links li + li,
+.footer__list-social li + li {
+  margin-left: 21px;
+}
+
+.footer__list-social {
+  margin-top: 32px;
+}
+
+.footer__list-social .fab {
+  font-size: 28px;
+}
+
+.footer__list-social .fa-facebook-f {
+  font-size: 23px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: color .25s ease-in-out;
+}
+
+.footer a:hover {
+  color: #c0392b;
+}

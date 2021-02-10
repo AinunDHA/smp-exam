@@ -1,0 +1,166 @@
+
+
+@media screen and (min-width: 992px) {
+  .drawer{
+    display: none;
+  }
+  .grid-nav {
+    display: grid;
+    grid-template-columns: 3.5fr 5fr 3.5fr;
+    align-items: center;
+    padding: 32px 0;
+    /* padding: 3rem 0; */
+    font-family: Lato, serif;
+    color: white;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 767px){
+  .grid-nav {
+    display: flex;
+    /* grid-template-columns: 3.5fr 5fr 3.5fr; */
+    align-items: center;
+    padding: 32px 0;
+    /* padding: 3rem 0; */
+    font-family: Lato, serif;
+    color: white;
+  }
+  .cont {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+.grid-nav *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cont{
+    width: 60%;
+    margin: auto;
+  }
+  
+  
+  .navigation{
+    background-color: #20a9bb;
+    /* height: 136px; */
+  }
+  
+  
+.side-nav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+
+
+}
+
+.side-nav a{
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+
+}
+
+  .logo{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+  }
+  .gambar-logo{
+    height: 3rem;
+  }
+  .text-logo{
+    vertical-align: middle;
+    height: inherit;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #D2D3D5;
+    margin-left: -13rem;
+  }
+  
+  .text{
+    justify-self: center;
+    text-align: center;
+  }
+  .nama-text{
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+    color: white;
+  }
+  .sekolah-text{
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .timer{
+    font-size: 1.2rem;
+    justify-self: right;
+    color: white;
+  }
+  .text-timer{
+    margin-bottom: 0.2rem;
+    color: white;
+  }
+  .clock-timer{
+    color: white;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .text-logo{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 595px) {
+    .grid-nav{
+      grid-template-columns: 1fr;
+    }
+    .logo{
+      display: none;
+    }
+    .text{
+      display: grid;
+      padding: 0px 32px;
+    }
+    .nama-text{
+      font-size: 1rem;
+    }
+    .sekolah-text{
+      font-size: 0.8rem;
+    }
+    .timer{
+      justify-self: center;
+      text-align: center;
+      font-size: 0.8rem;
+    };
+      
+    .nama-text{
+      display: block;
+      font-size: 1.5rem;
+      margin-bottom: 0.2rem;
+      color: white;
+     }
+    .sekolah-text{
+      display: block;
+      font-size: 18px;
+      font-weight: 100;
+      color: white;
+    }
+  }

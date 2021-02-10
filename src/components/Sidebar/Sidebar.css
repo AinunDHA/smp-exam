@@ -1,0 +1,36 @@
+.side-number{
+  display: flex;
+  margin: 2.5rem 2.5rem;
+}
+
+.tombol-soal{
+  width: 280px;
+  /* height: 40px; */
+  padding: 12px 20px;
+  border: 2px solid #3498db;
+  /* background: papayawhip; */
+  margin: 10px;
+  transition: color 0.4s linear;
+  cursor: pointer;
+  min-width: 200px;
+  cursor: pointer;
+
+}
+
+.tombol-soal:hover{
+  color: #967777;
+}
+
+.tombol-soal::before{
+  transform: scaleX(0);
+}
+.tombol-soal:hover::before{
+  transform: scaleX(1);
+}
+
+#no-soal{
+    color: steelblue;
+    font-size: 16px;
+    font-family: cursive;
+}
+

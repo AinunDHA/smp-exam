@@ -1,0 +1,91 @@
+
+@media all and (min-width: 992px){
+    .daftar-soal{
+    width: 100%;
+    height: 60rem;
+    border: 2px solid #333;
+    float: right;
+    background-color: white;
+    position: relative;
+    height: 500px;
+    overflow-y: scroll;
+    margin-right: -432px;
+}
+}
+@media all and (min-width: 480px) and (max-width: 767px){
+    .daftar-soal{
+        display: none;
+    }
+    .daftar-soal-app{
+        display: none;
+    }
+}
+/*Untuk tampilan landscpae Ipad dan portrait IpadPro*/
+@media screen and (width: 1024px){
+    .daftar-soal{
+        margin-right: -240pt;
+    }
+}
+
+.tabel-soal{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5, 0.75fr);
+}
+
+.tabel-soal tr td{
+border: 0px solid #999;
+padding : 10px;
+}
+
+.nomor-soal{
+    position: relative;
+    
+}
+
+#jawaban-sementara{
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -5px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: rgb(9, 26, 78);
+}
+
+.bulat{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    position: absolute;
+    top: -0.8rem;
+    left: 1.8rem;
+    background-color: white;
+}
+
+.kotak{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    text-align: center;
+    margin-bottom: 16px;
+    background-color: springgreen;
+}
+
+.kotak-blank{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    text-align: center;
+    margin-bottom: 16px;
+    background-color: white;
+}
+
+.keterangan-kotak{
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    line-height: 2.5rem;
+}

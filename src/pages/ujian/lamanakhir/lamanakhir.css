@@ -1,0 +1,113 @@
+@media all and (min-width: 1024px){
+    body{
+      /* height: 100%;
+      width: 100%; */
+      font-family: 'Roboto', sans-serif;
+      background: #94d6d8;
+      /* background: linear-gradient(to top, white, rgb(160, 215, 252)) no-repeat scroll; */
+    }
+    .wrapper{
+      text-align: center;
+      margin-top: 75px;
+    }
+    .header-halaman3{
+      text-align: center; 
+    }
+    .tabel-halaman3{
+        display: table;
+        margin: 4rem 12rem;
+    }
+    .content{
+        width: 70%;
+    }
+}
+.wrapper{
+    width: 100%;
+}
+
+.header-halaman3{
+    width: 100%;
+    margin: 1rem 0rem;
+}
+h2#selamat{
+    padding: 4% 4% 0.5% 4%;
+    margin: 0px;
+    font-family: fantasy;
+}
+
+#selamat{
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#nilai{
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-align-last: center;
+    margin: 2%;
+    text-transform: uppercase;
+}
+h1#nilai_angka{
+    font-size: 50px;
+    text-align-last: center;
+    font-family: fantasy;
+}
+.tombol_lihathasil{
+    margin: 8pt;
+}
+.tombol2{
+    margin: 24pt;
+}
+#nikel{
+    background-color: 	#4682B4;
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border: 1px solid #999;
+    font-family: cursive;
+}
+#token{
+    background-color: #237f23;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #999;
+    font-family: cursive;
+}
+#balik{
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+.tabel-halaman3 {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 0pt;
+    border-radius: 10pt;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.content {
+    margin: 1% 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 2% 8%;
+}
